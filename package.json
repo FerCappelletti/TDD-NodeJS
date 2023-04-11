@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
@@ -20,10 +21,18 @@
   },
   "homepage": "https://github.com/FerCappelletti/TDD-NodeJS#readme",
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "happy-dom": "^9.1.0",
     "standard": "^17.0.0",
     "vitest": "^0.29.8"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
